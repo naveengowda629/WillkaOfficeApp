@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>dashboard</title>
+</head>
+<body>
+        <h4>Welcome to Dashboard</h4>
+        <form th:action="@{logout}" method="post">\
+            <button type="submit">
+                Logout
+            </button>
+        </form>
+</body>
+</html>

@@ -8,7 +8,7 @@ public class WillkaOfficeAppApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(WillkaOfficeAppApplication.class, args);
-		System.out.println("hello");
+
 	}
 
 }
